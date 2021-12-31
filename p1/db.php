@@ -4,7 +4,7 @@ class db
 {
     protected $servername = 'localhost';
     protected $username = 'root';
-    protected $password = 'Semaffor71!';
+    protected $password = 'p';
     protected $dbname = 'biblioteca';
     protected $conectare;
     public function SetConectare()
