@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main-header {
+  @apply flex px-14 py-24 pb-2.5;
+}
+
+.main-header > div {
+  @apply pr-5 font-sans text-sm;
+}
+
+.advertise {
+  @apply ml-auto;
+}
+
+.switch {
+  @apply relative inline-block w-10 h-5;
+}
+
+.slider {
+  @apply absolute cursor-pointer inset-0 bg-white duration-500;
+}
+
+.slider:before {
+  @apply absolute h-4 w-4 left-px bottom-0.5;
+}
+
+.input:checked + .slider {
+  @apply bg-gray-400;
+}
+
+input:checked + .slider:before {
+  @apply translate-x-5 translate-y-5;
+}
+
+.slider.round {
+  @apply rounded-3xl;
+}
+
+.slider.round:before {
+  @apply rounded-xl;
+}
+
+.switch input {
+  @apply opacity-0 w-0 h-0;
+}
+
+.listnft {
+  @apply border-solid border-black rounded-lg pl-2.5;
+}
+
+.l1 {
+  @apply px-14 py-24 pb-2.5;
+}
+
+.t1 {
+  @apply flex;
+}
+
+.subl {
+  @apply ml-auto underline;
+}
+
+.featured {
+  @apply text-xl font-bold;
+}
+
+.img {
+  @apply block;
+}
+
+.item {
+  @apply text-center float-left;
+}
+
+.l2 {
+  @apply pt-80 pl-14 pb-20;
+}
+
+.alt {
+  @apply flex pt-10 pr-24;
+}
+
+.alt > div {
+  @apply pr-5 font-sans text-sm;
+}
+
+.img-srch {
+  @apply ml-auto;
+}
+
+.alltime {
+  @apply text-gray-50;
+}
+
+table {
+  @apply table-auto border-collapse;
+}
+table th {
+  @apply text-gray-300 pr-24;
+}
+table td {
+  @apply pr-24;
+}
+
+.tabel {
+  @apply pt-9;
+}
+
+.btn {
+  @apply bg-black text-white px-2.5 py-4 border-none rounded-2xl;
+}
+
+.btn:hover {
+  @apply bg-red-500 text-white;
+}
+
+tr:nth-child(even) {
+  @apply bg-gray-400;
+}
+
+tr {
+  @apply font-sans;
+}
+
+.l3 {
+  @apply px-14 py-24 pb-2.5 bg-black text-white;
+}
+
+.f1 {
+  @apply flex pb-8;
+}
+
+.f2 {
+  @apply flex pb-6;
+}
+
+.f1 > div {
+  @apply pr-5;
+}
+
+.f2 > div {
+  @apply pr-5;
+}
+
+.cpy {
+  @apply pl-96;
+}
+
+.twitter {
+  @apply ml-auto;
+}
+
+/*# sourceMappingURL=style.css.map */
