@@ -1,0 +1,42 @@
+.XO{
+    text-align: center;
+    font-size : 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 400px;
+}
+
+.c{
+    border: 1px solid black;
+    min-width: 125px;
+    min-height: 125px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+.turaX{
+    color: black;
+}
+
+.turaO{
+    color: red;
+}
+
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
