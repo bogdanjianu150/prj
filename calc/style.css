@@ -1,0 +1,31 @@
+.container{
+    max-width: 400px;
+    margin: 100px auto 0 auto;
+}
+
+#calc{
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    padding : 16px 8px;
+    font-size: 30px
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.button{
+    border: 1px solid gray;
+    line-height: 100px;
+    text-align: center;
+}
+
